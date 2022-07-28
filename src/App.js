@@ -8,6 +8,8 @@ function App() {
     { id: 1, title: "Javascript", body: "Description" },
     { id: 2, title: "Javascript", body: "Description" },
     { id: 3, title: "Javascript", body: "Description" },
+    { id: 3, title: "Javascript", body: "Description" },
+    { id: 3, title: "Javascript", body: "Description" },
   ]);
 
   return (

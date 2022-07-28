@@ -1,8 +1,12 @@
-import "./cardComponent.css";
-import React from "react";
-
-const CardComponent = () => {
-  return <div></div>;
+const CardComponent = ({ posts, title }) => {
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>{title}</h1>
+      {posts.map((post, index) => (
+        <PostItem number={index + 1} key={post.id} post={post} />
+      ))}
+    </div>
+  );
 };
 
 export default CardComponent;

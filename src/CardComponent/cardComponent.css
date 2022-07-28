@@ -45,6 +45,7 @@ h2 {
 }
 .add__button {
   cursor: pointer;
+  background: #fff;
   border-radius: 30px;
   padding: 10px 30px;
   color: #eb5a1e;
@@ -58,6 +59,9 @@ h2 {
   align-items: center;
   padding: 14px 20px;
   width: 100%;
+}
+button {
+  cursor: pointer;
 }
 .add__button:hover {
   background: #fe5f1e;

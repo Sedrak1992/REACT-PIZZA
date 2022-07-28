@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "proxima-nova";
   text-decoration: none;
   list-style: none;
 }

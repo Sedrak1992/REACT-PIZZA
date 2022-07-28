@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/REACT-PIZZA/static/css/main.f14e3432.css",
-    "main.js": "/REACT-PIZZA/static/js/main.92405ca3.js",
+    "main.css": "/REACT-PIZZA/static/css/main.929eb422.css",
+    "main.js": "/REACT-PIZZA/static/js/main.8e276c54.js",
     "static/media/520 ₽.svg": "/REACT-PIZZA/static/media/520 ₽.f0c47fca485c2e63300dd90c40786b22.svg",
     "static/media/iconfinder_shopping-cart_2561279 1.svg": "/REACT-PIZZA/static/media/iconfinder_shopping-cart_2561279 1.d05720f2b474db2145233cd2ce1d4e91.svg",
     "index.html": "/REACT-PIZZA/index.html",
-    "static/media/Vector_a.svg": "/REACT-PIZZA/static/media/Vector_a.8a732a7211d0fa00bfd63712369e29cc.svg",
+    "static/media/Vector_a.svg": "/REACT-PIZZA/static/media/Vector_a.f504b500eda835f7c33889905f37755a.svg",
     "static/media/Rectangle_gic.svg": "/REACT-PIZZA/static/media/Rectangle_gic.0422aab34a18164c296c7286a111091b.svg",
-    "main.f14e3432.css.map": "/REACT-PIZZA/static/css/main.f14e3432.css.map",
-    "main.92405ca3.js.map": "/REACT-PIZZA/static/js/main.92405ca3.js.map"
+    "main.929eb422.css.map": "/REACT-PIZZA/static/css/main.929eb422.css.map",
+    "main.8e276c54.js.map": "/REACT-PIZZA/static/js/main.8e276c54.js.map"
   },
   "entrypoints": [
-    "static/css/main.f14e3432.css",
-    "static/js/main.92405ca3.js"
+    "static/css/main.929eb422.css",
+    "static/js/main.8e276c54.js"
   ]
 }

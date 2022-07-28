@@ -1,3 +1,75 @@
-h2{
-    color: red;
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  padding: 30px;
+}
+.CardComponent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.CardComponent > div {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+.div__button {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px;
+  background: #f3f3f3;
+  border-radius: 10px;
+}
+.div__button > button {
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 10px 0;
+  color: #000;
+}
+.div__button > button:nth-child(1) {
+  background: #fff;
+  width: 50%;
+  margin-bottom: 5px;
+}
+.div__button > button:nth-child(3) {
+  background: #fff;
+}
+.div__button > button:nth-child(2) {
+  width: 50%;
+  margin-bottom: 5px;
+}
+.div__button > button {
+  width: 33.33%;
+}
+.add__button {
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #eb5a1e;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid #eb5a1e;
+}
+.price__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  width: 100%;
+}
+.add__button:hover {
+  background: #fe5f1e;
+  color: #fff;
+}
+h4 {
+  font-weight: 900;
+  font-size: 20px;
+  color: #000;
+  margin: 20px 10px;
+}
+.price__button > div:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
 }

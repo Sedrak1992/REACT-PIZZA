@@ -20,6 +20,9 @@ h2 {
   background: #f3f3f3;
   border-radius: 10px;
 }
+.active {
+  background: #eb5a1e !important;
+}
 .div__button > button {
   border-radius: 5px;
   border: 0;
@@ -31,6 +34,7 @@ h2 {
 .div__button > button:nth-child(1) {
   background: #fff;
   width: 50%;
+  background: red;
   margin-bottom: 5px;
 }
 .div__button > button:nth-child(3) {
@@ -76,4 +80,17 @@ h4 {
 .price__button > div:nth-child(1) {
   font-size: 20px;
   font-weight: 700;
+}
+
+.size-pizza {
+  display: flex;
+  width: 100%;
+}
+.size-pizza__button {
+  flex-grow: 1;
+  border: none;
+  padding: 10px 0;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
 }

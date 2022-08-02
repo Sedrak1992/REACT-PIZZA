@@ -16,27 +16,39 @@
   height: 50px;
 }
 .paragraph {
-  color: #fff;
+  color: #fff !important;
   font-weight: 700;
   display: block;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.paragraph > img {
+.logo--img{
+  width: 40px;
+  margin-right: 20px;
+}
+.header__container button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #fff !important;
+  font-weight: 700;
+}
+.paragraph > img > button {
   margin-top: auto;
   margin-bottom: auto;
 }
-.paragraph > img:nth-child(2){
-     margin: 5px;
+.paragraph > button:nth-child(2) {
+  margin: 5px;
 }
-.paragraph > img:nth-child(3){
-    margin: 5px;
+.paragraph > button:nth-child(3) {
+  margin: 5px;
+  padding: 6px;
 }
 .header__container--box {
   display: flex;
 }
-.header__container--box > img {
+.header__container--box > img > button {
   height: 38px;
   line-height: 90px;
   margin-top: auto;

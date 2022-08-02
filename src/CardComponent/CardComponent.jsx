@@ -17,7 +17,7 @@ const CardComponent = ({ list }) => {
             <h4>{item.title}</h4>
             <div className="div__button">
               {item.types.map((it,i) => (
-                <button key={i} className={activeType === i ? "active" : ""}>
+                <button key={i} className={ activeType === i ? "active" : ""}>
                   {arr[it]}
                 </button>
               ))}

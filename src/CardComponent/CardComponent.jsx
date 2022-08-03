@@ -16,15 +16,15 @@ const CardComponent = ({ list }) => {
             <img src={item.imageUrl} />
             <h4>{item.title}</h4>
             <div className="div__button">
-              {item.types.map((it,i) => (
-                <button key={i} className={ activeType === i ? "active" : ""}>
+              {item.types.map((it, i) => (
+                <button key={i} className={activeType === i ? "active" : ""}>
                   {arr[it]}
                 </button>
               ))}
 
               <div className="size-pizza">
                 {item.sizes.map((items, index) => (
-                  <button key={index} className="size-pizza__button">
+                  <button key={index} className=" size-pizza__button">
                     {items} см.
                   </button>
                 ))}

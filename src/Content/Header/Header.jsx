@@ -1,7 +1,7 @@
 import image_1 from "../../Img/image_1.png";
 import rub from "../../Img/520 ₽.svg";
 import basket from "../../Img/iconfinder_shopping-cart_2561279 1.svg";
-import NavigationMini from "../NavigationMini/NavigationMini.jsx";
+import NavigationMini from "../../components/navigation/Navigation.jsx";
 import Rectangle from "../../Img/Rectangle_gic.svg";
 import React from "react";
 import "./header.css";

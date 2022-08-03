@@ -72,5 +72,4 @@ const list = [
     category: 7,
   },
 ];
-
 export default list;

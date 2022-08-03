@@ -20,11 +20,8 @@ h2 {
   background: #f3f3f3;
   border-radius: 10px;
 }
-.aaa{
-  background: red;
-}
 .active {
-  background: #eb5a1e !important;
+  background: #fff;
 }
 .div__button > button {
   border-radius: 5px;
@@ -35,9 +32,7 @@ h2 {
   color: #000;
 }
 .div__button > button:nth-child(1) {
-  background: #fff;
   width: 50%;
-  background: red;
   margin-bottom: 5px;
 }
 .div__button > button:nth-child(3) {

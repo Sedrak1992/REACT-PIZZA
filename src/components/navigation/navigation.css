@@ -1,0 +1,100 @@
+.filters--button .active {
+  background: #282828;
+  color: white;
+}
+.filters--button > div > button {
+  border: none;
+}
+.filters--button--navigation {
+  display: flex;
+}
+.filters--button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 20px;
+  margin: 10px;
+}
+.NavigationMini--box__ul {
+  display: flex;
+}
+.imgVector_a--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavigationMini--box__ul {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NavigationMini--box button {
+  border: none;
+  background: none;
+}
+.imgVector_a--button {
+  padding-left: 10px;
+}
+.imgVector_a--button > a {
+  color: #2c2c2c;
+}
+.imgVector_a {
+  margin-right: 6px;
+}
+.popular {
+  border-bottom: 2px dashed #fe5f1e;
+}
+.popular__button > a {
+  color: #fe5f1e;
+}
+.imgVector_a--button > img {
+  margin-right: 6px;
+}
+.sort__label {
+  display: flex;
+  width: 160px;
+  flex-direction: column;
+}
+.sort__label__button {
+  text-align: left;
+  padding: 10px;
+}
+
+/* .sort__label {
+  background: #2c2c2c;
+  position: absolute;
+  right: 59px;
+  top: 230px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 0;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+.sort__label > ul > li:hover {
+  background: rgba(254, 95, 30, 0.05);
+  cursor: pointer;
+}
+.sort__label > ul > li > button {
+  background: none;
+  border: none;
+}
+.sort__label__btn {
+  background: red;
+}
+.sort__label button {
+  padding: 10px;
+  width: 100%;
+  background: red !important;
+}
+.item {
+  color: #000;
+}
+.item:hover {
+  color: #fe5f1e;
+} */

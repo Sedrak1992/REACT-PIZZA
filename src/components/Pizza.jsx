@@ -4,7 +4,10 @@ import { useState } from "react";
 const Pizza = ({ item }) => {
   const [activeType, setActiveType] = useState(0);
   const [activeTyp2, setActiveType2] = useState(0);
+  const [count, setCount] = useState(0);
   const arr = ["тонкое", "традиционное"];
+
+  const s = count;
 
   return (
     <div>
@@ -38,9 +41,11 @@ const Pizza = ({ item }) => {
       <div className="price__button">
         <div>от {item.price} ₽ </div>
         <div>
-          <button className="add__button">
-
-            + Добавить <span>0</span>
+          <button onClick={() => setCount(count + 1)} className="add__button">
+            + Добавить
+            {count  > 0 &&  (
+              <span className="count__span">{count}</span> 
+            )}
             
           </button>
         </div>

@@ -1,7 +1,7 @@
 const list = [
   {
     id: 1,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image11.png",
+    imageUrl: "/PizzaImg/image11.png",
     title: "Чизбургер-пицца",
     price: "395",
     types:[0,1],
@@ -10,7 +10,7 @@ const list = [
   },
   {
     id: 2,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image22.png",
+    imageUrl: "/PizzaImg/image22.png",
     title: "Сырная",
     price: "450",
     types:[0,1],
@@ -19,7 +19,7 @@ const list = [
   },
   {
     id: 3,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image33.png",
+    imageUrl: "/PizzaImg/image33.png",
     title: "Креветки по-азиатски",
     price: "290",
     types:[0,1],
@@ -28,7 +28,7 @@ const list = [
   },
   {
     id: 8,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image44.png",
+    imageUrl: "/PizzaImg/image44.png",
     title: "Сырный цыпленок",
     price: "385",
     types:[0,1],
@@ -37,7 +37,7 @@ const list = [
   },
   {
     id: 1,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image11.png",
+    imageUrl: "/PizzaImg/image11.png",
     title: "Чизбургер-пицца",
     price: "395",
     types:[0,1],
@@ -46,7 +46,7 @@ const list = [
   },
   {
     id: 6,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image22.png",
+    imageUrl: "/PizzaImg/image22.png",
     title: "Сырная",
     price: "450",
     types:[0,1],
@@ -55,7 +55,7 @@ const list = [
   },
   {
     id: 7,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image33.png",
+    imageUrl: "/PizzaImg/image33.png",
     title: "Креветки по-азиатски",
     price: "290",
     types:[0,1],
@@ -64,7 +64,7 @@ const list = [
   },
   {
     id: 8,
-    imageUrl: "/REACT-PIZZA/PizzaImg/image44.png",
+    imageUrl: "/PizzaImg/image44.png",
     title: "Сырный цыпленок",
     price: "385",
     types:[0,1],

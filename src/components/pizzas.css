@@ -49,7 +49,7 @@ h2 {
   cursor: pointer;
   background: #fff;
   border-radius: 30px;
-  padding: 10px 30px;
+  padding: 10px 20px;
   color: #eb5a1e;
   font-weight: 700;
   font-size: 16px;
@@ -91,4 +91,17 @@ h4 {
   font-weight: 700;
   font-size: 14px;
   border-radius: 5px;
+}
+.count__span {
+  border-radius: 50%;
+  color: #fff;
+  background: #eb5a1e;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 3px 5px;
 }

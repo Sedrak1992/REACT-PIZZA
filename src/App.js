@@ -1,14 +1,18 @@
-import Header from "./Content/Header/Header.jsx";
 import Pizzas from "./components/Pizzas.jsx";
-import list from "./stateArray/StateArray";
+import NotFound from "./pages/NotFound.jsx";
+import Cart from "./pages/Cart.jsx";
+import PizzaPage from "./pages/PizzaPage";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Pizzas list={list} />
-      
+      <Routes>
+        <Route path="/" element={<PizzaPage />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

@@ -13,6 +13,16 @@ const hamer = [
 ];
 
 const Navigation = () => {
+  const [open, setOpen] = useState(false);
+  const [selected, setSelected] = useState(0);
+
+  const list = ["популярности", "по цене", "по алфавиту"];
+  const sortName = list[selected];
+  const onClickItem = (i) => {
+    setSelected(i);
+    setOpen(false);
+  };
+
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div>
@@ -39,18 +49,31 @@ const Navigation = () => {
               </button>
             </li>
             <li className="popular">
-              <button className="popular__button">
-                <a href="#">популярности</a>
+              <button
+                className="popular__button"
+                onClick={() => setOpen(!open)}
+              >
+                <a href="#">{sortName}</a>
               </button>
             </li>
           </ul>
         </div>
       </div>
-      <div className="sort__label">
-        <button className="sort__label__button">популярности</button>
-        <button className="sort__label__button">по цене</button>
-        <button className="sort__label__button">по алфавиту</button>
-      </div>
+      {open && (
+        <div className="sort__label">
+          {list.map((name, i) => (
+            <button
+              key={i}
+              onClick={() => onClickItem(i)}
+              className={`sort__label__button ${
+                selected === i ? "activeOpen" : ""
+              }`}
+            >
+              {name}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
